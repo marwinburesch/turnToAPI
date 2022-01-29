@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "marwinburesch",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
